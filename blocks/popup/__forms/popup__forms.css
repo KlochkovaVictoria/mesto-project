@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  max-width: 358px;
+
   justify-items: stretch;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
@@ -15,14 +15,12 @@
   gap: 43px;
   border: 0;
   outline: none;
-  margin-left: 36px;
 }
 
 @media screen and (max-width: 768px) {
   .popup__forms {
-    margin-left: 22px;
     line-height: 17px;
-    max-width: 238px;
+
     margin-top: 75px;
   }
 }

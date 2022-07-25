@@ -1,4 +1,5 @@
 .profile__title {
+  max-width: 294px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,6 +16,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   color: #FFFFFF;
 }
 
@@ -30,6 +36,7 @@
 
 @media screen and (max-width: 440px) {
   .profile__title  {
+    max-width: 282px;
     font-size: 27px;
     line-height: 33px;
   }

@@ -16,23 +16,21 @@
   align-self: center;
   position: absolute;
   cursor: pointer;
-  z-index: 22;
-  left: 435px;
-  bottom: 335px;
-  -webkit-transition: background-image .1s linear;
-  -o-transition: background-image .1s linear;
-  transition: background-image .1s linear;
+  z-index: 2;
+  right: -40px;
+  top: -40px;
 }
 
 .popup__close-icon:hover {
   background-image: url(../../../images/close-icon__hover.svg);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
   .popup__close-icon {
     width: 20px;
     height: 20px;
-    left: 262px;
-    bottom: 354px;
+    right: 0;
+    top: -32px;
   }
 }

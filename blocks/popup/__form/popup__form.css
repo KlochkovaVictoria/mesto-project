@@ -1,10 +1,16 @@
 .popup__form {
   border: 0px;
+  padding-bottom: 13px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .popup__form::-webkit-input-placeholder {
-  padding-bottom: 13px;
   display: block;
   width: 100%;
   font-size: 14px;
@@ -17,7 +23,6 @@
 }
 
 .popup__form::-moz-placeholder {
-  padding-bottom: 13px;
   display: block;
   width: 100%;
   font-size: 14px;
@@ -30,7 +35,6 @@
 }
 
 .popup__form:-ms-input-placeholder {
-  padding-bottom: 13px;
   display: block;
   width: 100%;
   font-size: 14px;
@@ -43,7 +47,6 @@
 }
 
 .popup__form::-ms-input-placeholder {
-  padding-bottom: 13px;
   display: block;
   width: 100%;
   font-size: 14px;
@@ -56,7 +59,6 @@
 }
 
 .popup__form::placeholder {
-  padding-bottom: 13px;
   display: block;
   width: 100%;
   font-size: 14px;

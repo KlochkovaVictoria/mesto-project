@@ -1,23 +1,22 @@
 .popup__container {
-  position: fixed;
-  margin-left: calc(430px/-2);
-  margin-top: calc(330px/-2);
-  min-width: 430px;
-  min-height: 330px;
-  background-color: white;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
   margin: 0 auto;
+  padding-left: 36px;
+  padding-right: 36px;
+  min-width: calc(430px - 72px);
+  background-color: white;
   border-radius: 10px;
-  top: 50%;
-  left: 50%;
   z-index: 10;
 }
 
 @media screen and (max-width: 768px) {
   .popup__container {
-    margin: 0 auto;
-    margin-left: calc(282px/-2);
-    margin-top: calc(322px/-2);
-    min-height: 322px;
-    min-width: 282px;
+    padding-left: 22px;
+    padding-right: 22px;
+    min-width: calc(282px - 38px)
   }
 }
