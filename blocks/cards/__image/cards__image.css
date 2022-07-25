@@ -1,0 +1,17 @@
+.cards__image {
+  margin: 0;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+  object-fit: cover;
+  max-width: 282px;
+  border-radius: 10px 10px 0 0;
+  aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 1279px) {
+  .cards__image {
+    min-width: 100%;
+  }
+}
+
