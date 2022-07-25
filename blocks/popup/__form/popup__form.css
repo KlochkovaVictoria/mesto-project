@@ -1,13 +1,13 @@
 .popup__form {
   border: 0px;
-  padding-bottom: 13px;
+  padding-bottom: 8px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 17px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .popup__form::-webkit-input-placeholder {
@@ -68,4 +68,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__form {
+    padding-bottom: 8px;
+  }
 }

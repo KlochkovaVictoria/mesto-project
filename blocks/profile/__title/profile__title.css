@@ -1,12 +1,6 @@
 .profile__title {
-  max-width: 294px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  max-width: 336px;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-size: 42px;

@@ -22,7 +22,7 @@
 }
 
 .popup__close-icon:hover {
-  background-image: url(../../../images/close-icon__hover.svg);
+  opacity: 0.6;
   cursor: pointer;
 }
 

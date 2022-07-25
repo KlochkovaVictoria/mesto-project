@@ -1,6 +1,4 @@
 .profile__edit-button {
-  display: flex;
-  justify-self: center;
   align-self: center;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -28,7 +26,6 @@
     background-size: 7.5px;
     width: 19px;
     height: 19px;
-    margin-left: 10px;
     margin-top: 30.25px;
   }
 }
