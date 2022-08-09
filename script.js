@@ -1,24 +1,26 @@
+//popup
 let popup = document.querySelector('.popup');
-let editButton = document.querySelector('.profile__edit-button');
+let closeIcon = popup.querySelector('.popup__close-icon');
+//profile
+let profile = document.querySelector('.profile');
+let editButton = profile.querySelector('.profile__edit-button');
+//cards
+let mainContent = document.querySelector('.main-content');
+let cards = mainContent.querySelector('.cards');
+let cardsItem = cards.querySelectorAll('section.main-content ul.cards .cards__item');
+let likeIcon = cardsItem.querySelector('.cards__like-icon');
 
-function editInfo() {
-  popup.innerHTML += `
-  <section class="popup">
-        <div class="popup__container">
-            <h2 class="popup__title">Редактировать профиль</h2>
-            <form class="popup__forms" name="profile-form">
-                <input class="popup__form" type="text" name="firstname" placeholder="Жак-Ив Кусто">
-                <input class="popup__form" type="text" name="about" placeholder="Исследователь океана">
-                <button class="popup__save-button" type="submit" aria-label="Сохранить">Сохранить</button>
-            </form>
-            <button type="button" class="popup__close-icon" aria-label="Закрыть"></button>
-        </div>
-    </section>
-  `;
-  editInfo();
-}
+/*открытие окна редактирования popup по кнопке edit*/
+editButton.addEventListener('click', function() {
+  popup.classList.toggle('popup_opened');
+});
 
-editButton.addEventListener('click', editInfo);
+/*закрытие окна редактирования popup по иконке close*/
+closeIcon.addEventListener('click', function() {
+  popup.classList.toggle('popup_opened');
+});
 
-
-
+/*нажатие на кнопку like*/
+likeIcon.addEventListener('click', function() {
+  likeIcon.classList.toggle('cards__like-icon_active');
+});
