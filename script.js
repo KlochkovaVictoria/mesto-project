@@ -7,8 +7,9 @@ let editButton = profile.querySelector('.profile__edit-button');
 //cards
 let mainContent = document.querySelector('.main-content');
 let cards = mainContent.querySelector('.cards');
-let cardsItem = cards.querySelectorAll('section.main-content ul.cards .cards__item');
-let likeIcon = cardsItem.querySelector('.cards__like-icon');
+let cardsItem = cards.querySelectorAll('.cards__item');
+let cardsCaption = cardsItem.querySelectorAll('.cards__caption');
+let likeIcon = cardsCaption.querySelectorAll('.cards__like-icon');
 
 /*открытие окна редактирования popup по кнопке edit*/
 editButton.addEventListener('click', function() {
